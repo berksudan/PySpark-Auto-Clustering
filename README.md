@@ -1,4 +1,4 @@
-# PySpark-Auto-Clustering
+# PySpark Auto Clustering
 
 This tool first finds the optimum K (number of clusters) and optimum seed value according to various parameters, then clusters the data with various algorithms. As a result of the clustering, the _prediction_ column contains the prediction of which cluster that row belongs to. Pivot operation is applied in clustering. If a variable of type list of lists is entered in the pivot value, a separate dataframe is created according to each feature list in the list and clustering is applied only on fragmented dataframes. When the pivot operation is not needed, it will be sufficient to enter the value of ``None`` in the relevant parameter.
 
