@@ -1,0 +1,5 @@
+pandas==1.0.5
+pyspark==2.4.5
+matplotlib==3.2.2
+PyArrow==0.17.1
+
